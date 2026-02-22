@@ -58,7 +58,7 @@ function Section({
             onClick={() => setCollapsed(!collapsed)}
             className="text-[#34C94B] font-semibold"
           >
-            {collapsed ? "Show All" : "Collapse"}
+            {!collapsed ? "Show All" : "Collapse"}
           </button>
         )}
       </div>

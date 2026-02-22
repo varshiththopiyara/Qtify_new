@@ -22,7 +22,7 @@ function Navbar() {
 
     <div className="w-px bg-black h-full"></div>
 
-    <div className="px-4 flex items-center justify-center h-full">
+    <div className="px-4 flex items-center justify-center h-full ">
       <img src={SearchIcon} alt="search" className="h-5 w-5" />
     </div>
 
@@ -39,6 +39,7 @@ function Navbar() {
     font-semibold
     text-sm
     cursor-pointer
+    font-poppins
     "
 >
   Give Feedback
